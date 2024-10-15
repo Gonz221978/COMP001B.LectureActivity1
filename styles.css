@@ -1,7 +1,44 @@
+
+/* Initial */
 body {
     background-color: #1e1e1e;
     color: white;
     font-family: Arial, sans-serif;
     text-align: center;
     margin-top: 20%;
+}
+
+/* Type Selector */
+p {
+    font-size: 18px;
+    color: rgb(97, 156, 144);
+    margin: 10px 0;
+}
+
+/* ID Selector */
+#main-title {
+    font-size: 32px;
+    color: rgb(255, 150, 14);
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Class Selector */s
+.box {
+    background-color: lightcoral;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+/* Pseudo-class Selector */
+.nav-link:hover {
+    text-decoration: underline;
+    color: rgb(255, 174, 248);
+}
+
+/* Pseudo-element Selector */
+.cta-button::first-letter {
+    font-size: 200%;
+    color: red;
 }
